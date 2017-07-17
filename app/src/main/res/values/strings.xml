@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Twendehaja</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="activity_comment">Comment Here</string>
+    <string name="str_btn_find">Find</string>
+    <string name="str_tv_distance_time">Distance</string>
+    <string name="title_activity_check_company">PORTFOLIO</string>
+    <string name="activity_book_wedding">PORTFOLIO</string>
+    <string name="footer">twendehaja</string>
+    <string name="toilets">Check Nearest Public Toilets</string>
+    <string name="portable">Check Nearest Portable Toilets</string>
+    <string name="title_activity_help">Help</string>
+
+</resources>

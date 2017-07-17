@@ -1,0 +1,108 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+
+    <style name="AppTheme" parent="AppTheme.Base"/>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+
+    <style name="Body">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff29549f</item>
+        <item name="android:background">@null</item>
+
+    </style>
+
+    <style name="Footer">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/actionbar_background</item>
+        <item name="android:gravity">bottom</item>
+    </style>
+
+
+    <style name="ButtonStyles">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff29549f</item>
+        <item name="android:background">@null</item>
+    </style>
+
+ <style name="Theme.Twendehaja" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_twendehaja</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Twendehaja</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Twendehaja</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Twendehaja</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Twendehaja</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Twendehaja</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_twendehaja</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_twendehaja</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Twendehaja</item>
+        
+        
+    </style>
+
+    <style name="ActionBar.Solid.Twendehaja" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_twendehaja</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_twendehaja</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_twendehaja</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Twendehaja</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Twendehaja" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_twendehaja</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Twendehaja</item>
+    </style>
+
+    <style name="PopupMenu.Twendehaja" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_twendehaja</item>	
+    </style>
+
+    <style name="DropDownListView.Twendehaja" parent="@android:style/Widget.Holo.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_twendehaja</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Twendehaja" parent="@android:style/Widget.Holo.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_twendehaja</item>
+    </style>
+
+    <style name="DropDownNav.Twendehaja" parent="@android:style/Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_twendehaja</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_twendehaja</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_twendehaja</item>
+    </style>
+    
+    <style name="ProgressBar.Twendehaja" parent="@android:style/Widget.Holo.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_twendehaja</item>
+    </style>
+    
+    <style name="ActionButton.CloseMode.Twendehaja" parent="@android:style/Widget.Holo.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_twendehaja</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Twendehaja.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Twendehaja</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Twendehaja</item>
+    </style>
+
+</resources>

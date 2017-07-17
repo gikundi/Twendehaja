@@ -1,0 +1,188 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/tools"
+    android:id="@+id/home_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+<include
+    android:id="@+id/toolbar"
+    layout="@layout/toolbar"/>
+
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+   android:layout_height="fill_parent">
+
+
+<LinearLayout 
+    
+    android:layout_width="match_parent"
+    android:background="#F0F0F0"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewOrgId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="enter name"
+        android:textColorHint="#d72a380c"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="#ff000000">
+
+        <requestFocus />
+    </EditText>
+    
+    <EditText
+        android:id="@+id/PhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="14dp"
+
+        android:textColor="#ff000000"
+        android:textColorHint="#d72a380c"
+        android:ems="10"
+        android:hint="enter phone number"
+
+        android:padding="10dp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="14dp"
+
+        
+        android:ems="10"
+        android:hint="enter email"
+        android:textColorHint="#d72a380c"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="#ff000000" />
+
+    <EditText
+        android:id="@+id/Place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="14dp"
+
+        android:textColor="#ff000000"
+        
+        android:ems="10"
+        android:hint="Place of Event"
+        android:textColorHint="#d72a380c"
+        android:padding="10dp"
+        android:singleLine="true" />
+    
+    <EditText
+        android:id="@+id/Package"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColorHint="#d72a380c"
+        android:layout_marginTop="14dp"
+        
+        android:ems="10"
+        android:hint="Event Package"
+        android:padding="10dp"
+
+        android:textColor="#ff000000"
+        android:singleLine="true" />
+    
+    <!--<EditText-->
+        <!--android:id="@+id/txtDate"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:drawableRight="@drawable/calender"-->
+        <!--android:ems="10"-->
+        <!--android:textColor="#ff000000"-->
+        <!--android:hint="1-1-2014"-->
+        <!--android:inputType="date"-->
+        <!--android:textColorHint="#ff000000"-->
+        <!--android:padding="10dp"-->
+        <!--android:singleLine="true" />-->
+
+    <Button
+        android:id="@+id/btnChangeDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/fromi"
+        android:background="#33C2E0"
+        android:text="From Date"
+        android:paddingStart="8dp"
+
+        android:layout_marginBottom="15dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="10dp" />
+
+    <Button
+        android:id="@+id/btnChangeDate2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/fromi"
+        android:background="#33C2E0"
+
+
+        android:text="To Date      "
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:id="@+id/lblDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Date (M-D-YYYY): "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ff000000" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#ff000000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tvDate2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#ff000000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <Button
+        android:id="@+id/ClientBooking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="22dp"
+        android:background="#33C2E0"
+        android:text="Submit"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+    </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/footer" />
+
+</LinearLayout>

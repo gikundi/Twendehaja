@@ -1,0 +1,25 @@
+<com.msoma.mmeks.common.DashboardLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#ffffff">
+
+
+    <Button
+        android:id="@+id/btn_public_toilet"
+        style="@style/ButtonStyles"
+        android:drawableTop="@drawable/btn_leads"
+        android:text="@string/toilets" />
+
+    <!--  Friends Button -->
+    <Button
+        android:id="@+id/btn_portable_toilet"
+        style="@style/ButtonStyles"
+        android:drawableTop="@drawable/btn_contact"
+        android:text="@string/portable" />
+
+
+
+</com.msoma.mmeks.common.DashboardLayout>
+
